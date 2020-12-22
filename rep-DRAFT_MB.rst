@@ -16,8 +16,7 @@ Multibeam echo sounders (MBES) are swath mapping sonar systems that are "push br
 
 Fundimentally, a MBES measures the two-way travel time to the seafloor along a fan of beams oriented across-track to the direction of travel. The beams are generated through coherent combination of signals recorded from multiple fixed receive elements. Their pointing angles relative to the sonar itself are typically neither constant nor equally spaced. MBESs are often characterized by their nadir [See the note regarding the term "nadir".] transmit and receive beam width, as these provide some indication of the size of the arrays fora given frequency, but also the resolving capability of the system. 
 
-.. note:: test 
-> NOTE: The term *nadir* is a commonly used term in the seafloor mapping community, but can mean one of two different things. Nadir is either means "in a direction orthogonal to the receive array", or "in a direction directly down toward the center of the earth." For an array that installed in the typical mapping configuration having zero roll and pitch, these two definitions are the same. But for a   
+> NOTE: The term *nadir* is a commonly used term in the seafloor mapping community, but can mean one of two different things. Nadir is either means "in a direction orthogonal to the receive array", or "in a direction directly down toward the center of the earth." For an array that installed in the typical mapping configuration having zero roll and pitch, these two definitions are the same. But for a system oscillating with variations in pitch and roll or for a system installed in a non-traditional configuration, they may mean different things.   Unless otherwise stated, the term nadir will indicate the direct
 
 There are many manufacturers of MBES and their capabilities can vary widely. The effort of this REP is to establish standard conventions for the essential common parameters for these systems, including reference frames and units.  
 This REP provides a boilerplate or sample template for creating your
@@ -675,5 +674,5 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjkwNzM0LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbLTQxMjIxNzQ3Myw1MTI1OTk3MTVdfQ==
 -->
