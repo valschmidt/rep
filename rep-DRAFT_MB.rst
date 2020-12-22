@@ -1,10 +1,10 @@
 REP: XXX
 Title: Standard Conventions for Multibeam Echosounders
 Author: Val Schmidt
-Status: Active
-Type: Process
+Status: Draft
+Type: Standards Track
 Content-Type: text/x-rst
-Created: 05-Aug-2002
+Created: 22-Dec-2020
 Post-History: 30-Aug-2002
 
 
@@ -666,5 +666,5 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MDU4NDcwXX0=
+eyJoaXN0b3J5IjpbMTc3MTY1NTYyN119
 -->
