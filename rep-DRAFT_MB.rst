@@ -1,6 +1,6 @@
-REP: 12
-Title: Sample reStructuredText REP Template
-Author: Ken Conley
+REP: XXX
+Title: Standard Conventions for Multibeam Echosounders
+Author: Val Schmidt
 Status: Active
 Type: Process
 Content-Type: text/x-rst
@@ -666,5 +666,5 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTE4OTUwNF19
+eyJoaXN0b3J5IjpbNDE4MDU4NDcwXX0=
 -->
