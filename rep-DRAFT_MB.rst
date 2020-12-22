@@ -14,11 +14,15 @@ Abstract
 
 Multibeam echo sounders (MBES) are swath mapping sonar systems that are "push broom" type acoustic sensors common to surface and submerged marine robotics for mapping and characterizing the seafloor and water column. This REP provides a standard set of conventions for encoding and interpreting data from these sensors. 
 
-Fundimentally, a MBES measures the two-way travel time to the seafloor along a fan of beams, typically oriented across-track to the direction of travel. The beams are generated through coherent combination of signals recorded from multiple fixed receive elements. The pointing angles of each beam relative to the sonar itself can be fixed but more often are varied dynamically to compensate for the vessel (and therefore sonar's) pitch and roll. Individual beam pointing angles may be equally spaced or varied. MBESs are often characterized by their nadir [See the note regarding the term "nadir".] transmit (along track) and receive (across track) beam widths, as these provide some indication of the size of the arrays for a given frequency and also the resolving capability of the system. he along-track and across-track beam widths increase for any beam pointed off nadir. 
+There are many manufacturers of MBES and their capabilities can vary widely. The effort of this REP is to establish standard conventions for the essential common parameters for these systems, including reference frames and units.  
+
+MBES 
+
+Fundimentally, a MBES measures the two-way travel time to the seafloor along a fan of beams, typically oriented across-track to the direction of travel. The beams are generated through coherent combination of signals recorded from multiple fixed receive elements. The pointing angles of each beam relative to the sonar itself can be fixed but more often are varied dynamically to compensate for the vessel (and therefore sonar's) pitch and roll. Individual beam pointing angles may be equally spaced or varied. MBESs are often characterized by their nadir [See the note regarding the term "nadir".] transmit (along track) and receive (across track) beam widths, as these provide some indication of the size of the arrays for a given frequency and also the nominal resolving and detection capability of the system. Nadir beam width are used because beam widths increase for any beam pointed off nadir. 
 
 > NOTE: The term *nadir* is a commonly used term in the seafloor mapping community, but can mean one of two different things. Nadir is either means "in a direction orthogonal to the receive array", or "in a direction directly down toward the center of the earth." For an array that installed in the typical mapping configuration having zero roll and pitch, these two definitions are the same. But for a system oscillating with variations in pitch and roll or for a system installed in a non-traditional configuration, they may mean different things.   Unless otherwise stated otherwise, the term nadir will indicate the direction orthogonal to the array in this REP.
 
-There are many manufacturers of MBES and their capabilities can vary widely. The effort of this REP is to establish standard conventions for the essential common parameters for these systems, including reference frames and units.  
+
 This REP provides a boilerplate or sample template for creating your
 own reStructuredText REPs.  In conjunction with the content guidelines
 in REP 1 [1]_, this should make it easy for you to conform your own
@@ -674,5 +678,5 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDk3NTAwOCw1MTI1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbNDg0NTEwNjY5LDUxMjU5OTcxNV19
 -->
