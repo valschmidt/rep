@@ -12,7 +12,7 @@ Post-History: 30-Aug-2002
 Abstract
 ========
 
-Multibeam echo sounders (MBES) are swath mapping sonar systems that are "push broom" type acoustic sensors common to surface and submerged marine robotics for mapping and characterizing the seafloor and water column. Fundimentally, a MBES measures the two-way travel time to the seafloor along a fan of beams oriented across-track to the direction of travel. The beams are generated through coherent combination of signals recorded from multiple fixed receive elements. This REP provides a standard set of conventions for encoding and interpreting data from these sensors. 
+Multibeam echo sounders (MBES) are swath mapping sonar systems that are "push broom" type acoustic sensors common to surface and submerged marine robotics for mapping and characterizing the seafloor and water column. Fundimentally, a MBES measures the two-way travel time to the seafloor along a fan of beams oriented across-track to the direction of travel. The beams are generated through coherent combination of signals recorded from multiple fixed receive elements. Their pointing angles relative to the sonar itself are typically neither constant nor equally spaced. MBESs are often characterized by their nadir transmit and receive beamwidthThis REP provides a standard set of conventions for encoding and interpreting data from these sensors. 
 
 There are many manufacturers of MBES and their capabilities can vary widely. The effort of this REP is to establish standard conventions for the essential common parameters for these systems, including reference frames and units.  
 This REP provides a boilerplate or sample template for creating your
@@ -670,5 +670,5 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDc3ODAwMF19
+eyJoaXN0b3J5IjpbLTM4MDk3NDU5N119
 -->
