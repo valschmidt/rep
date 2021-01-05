@@ -63,7 +63,9 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a set of data whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the estimates of pitch, roll and yaw from the filtered output of an IMU. IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either magnetic or another more accurate measure of True heading (Dual GPS, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for East, North, Up (NEU) reference frames and data reported by the `robot_localization` package which reports in the odom or map reference frames. 
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a set of data whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the estimates of pitch, roll and yaw from the filtered output of an IMU. 
+
+IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either Magnetic North or a measure of True North (Dual GPSs, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for East, North, Up (NEU) reference frames for map data and also ododata reported by the `robot_localization` package which reports in the odom or map reference frames. 
  
  . . The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often re-done to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
 
@@ -743,9 +745,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4OD
-MzMjIwMiwyMTEwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1
-MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMD
-c0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1
-NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbLTE0NDk5MDE3MjYsMTUxNDIwODg5NCwtNj
+Q3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2LDE1NzIzNzk2
+MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLD
+Q3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4
+MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ
+==
 -->
