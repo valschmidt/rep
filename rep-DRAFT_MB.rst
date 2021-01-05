@@ -63,7 +63,7 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection nis designed to isolate and measure specific errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune the nominal values provided by the reference far. Patch Tests can also measure time delays between the navigation sonar temporal reference frames. 
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection nis designed to isolate and measure specific errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. Patch Tests can also measure time delays between the navigation sonar temporal reference frames. It may seem odd that 
 
 Conventions:
 =======
@@ -728,8 +728,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ4ODExNzEsMTU3MjM3OTYxNCwxND
-g4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3
-ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLT
-EwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbMTQ5MDEwMTcyNywxNTcyMzc5NjE0LDE0OD
+g0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4
+NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMT
+AxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
 -->
