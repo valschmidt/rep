@@ -63,7 +63,7 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure specific errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. Patch Tests can also measure time delays between the navigation sonar temporal reference frames. The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. While small errors in installation lever-arm  
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure specific errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. Patch Tests can also measure time delays between the navigation sonar temporal reference frames. The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, installantranslational errors in the sensor's reference frame can have little effect on the resulting data, while   
 
 Conventions:
 =======
@@ -728,7 +728,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjY3NTQyMiwxNTcyMzc5NjE0LDE0OD
+eyJoaXN0b3J5IjpbMTMwMTIzMjkyNCwxNTcyMzc5NjE0LDE0OD
 g0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4
 NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMT
 AxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
