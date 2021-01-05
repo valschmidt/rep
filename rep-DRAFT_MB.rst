@@ -656,6 +656,8 @@ list`_.  The `Docutils project web site`_ has more information.
 References
 ==========
 
+[..1] 
+
 .. [1] REP 1, REP Purpose and Guidelines, Warsaw, Hylton
    (https://ros.org/reps/rep-0001.html)
 
@@ -679,6 +681,6 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMxODk5MDcsLTEwMTE5ODU1ODgsND
-g0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4ND
+UxMDY2OSw1MTI1OTk3MTVdfQ==
 -->
