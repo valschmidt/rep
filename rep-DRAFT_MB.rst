@@ -86,7 +86,7 @@ Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively
 
 Parameters
 -----
-A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published in MbesInfo messages. on the mbes_XX_info/ topic. Nodes using these parameters in real-time must use the info-topic-published values as these reflect currently accurate values. :
+A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published on the `mbes_XX_info/` topic. Nodes using these parameters in real-time must use the info-topic-published values as these reflect currently accurate values values and will be captured by BAG recordings. :
 
 	mbes_XX/correctors:
 		default_roll_bias_deg: 0.0
@@ -94,8 +94,6 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 		default_yaw_bias_deg: 0.0
 		default_IMU_time_bias_sec: 0.0
 		
-**FIX:** Parameters are not captured in a ROS BAG file I don't think. So if a BAG is replayed in a ROS environment, these parameters may have changed and may not reflect the values in force at the time the MBES data was recorded. This problem likely persists across other ROS nodes in which offsets are 
-
 
 Messages
 ----
@@ -732,11 +730,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjE5MjA1NSwxNDEyNjY2NzkyLC0xNT
-EyMzc5NDQzLC0xNjYyNjEwNzgyLDM5MzA2NjY4NSwtMTgzMzM4
-NDM0NiwtMTc1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMD
-IsOTMyNTA1NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgz
-MzIyMDIsMjExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NT
-AsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3
-NDk1NTEwMV19
+eyJoaXN0b3J5IjpbLTE3NTE1NTI5NDksMTQxMjY2Njc5MiwtMT
+UxMjM3OTQ0MywtMTY2MjYxMDc4MiwzOTMwNjY2ODUsLTE4MzMz
+ODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5MD
+AyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4
+MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OT
+UwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEw
+NzQ5NTUxMDFdfQ==
 -->
