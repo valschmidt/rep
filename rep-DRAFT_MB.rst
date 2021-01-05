@@ -87,7 +87,7 @@ Coordinate Frame Conventions
 -----
 ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following clarifications:
 
-Consider a MBES looking from out of the transducer array face from behind, from above with transmit and receive arrays in a Mill's Cross formation, with the long-axis of the transmit array aligned vertically and receive array orthogonal to and centered above it. Looking down from the top, the coordinate definitions shall be defined as follows:
+Consider a MBES looking from out of the transducer array face from behind, with transmit and receive arrays in a Mill's Cross formation. Imagine the long-axis of the transmit array aligned vertically and receive array orthogonal to and centered above it. From this viewpoint, the coordinate definitions shall be defined as follows:
 
 * x: 	Positive parallel to  the transmit array in the direction of the receive array.
 * y:  Positive parallel to the receive array in the direction to the left
@@ -746,10 +746,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDQyMyw5MzI1MDU3MDIsMTUxNDIwOD
-g5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2LDE1
-NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOT
-MzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUs
-NDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OT
-k3MTVdfQ==
+eyJoaXN0b3J5IjpbMTk2OTI4MTgzMCw5MzI1MDU3MDIsMTUxND
+IwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2
+LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNz
+IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
+OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
+I1OTk3MTVdfQ==
 -->
