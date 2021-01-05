@@ -59,11 +59,11 @@ In addition to two-way travel time along each beam, MBESs often record the acous
 
 A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. 
 
-* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface or volume to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). Proper calculation of acoustic backscatter is extremely difficult, requiring corrections for the source level of the transmitted signal, transmit and receive radiation sensitivity (i.e. beam patterns), fixed and time varying gains applied by the system and acoustic absorption in the water column.  
+* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface (the seafloor) or volume (a portion of the water column) to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). Proper calculation of acoustic backscatter is extremely difficult, requiring corrections for the source level of the transmitted signal, transmit and receive radiation patterns (i.e. beam patterns), fixed and time varying gains applied by the system and acoustic absorption in the water column.  
 * The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
 * The term "acoustic intensity" is a measure of acoustic energy, of a  received signal. Acoustic intensity, when expressed in linear (as opposed to decibel units) is proportional to the mean square value of the received signal. 
 * The term "acoustic magnitude" is proportional to acoustic pressure of the received acoustic signal. The SI unit for pressure is the Pascal. 
-* Finally the 
+* Finally because these measurements range over many orders of magnitude, they are used by scientists and engineers 
 
 Because of the complexity in calculating the acoustic 
 
@@ -697,7 +697,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTU1NjA4Miw0NzkyNjc4NTIsMTA3ND
-k1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4
-OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbNjAxMjY5MDgsNDc5MjY3ODUyLDEwNzQ5NT
+UxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgs
+NDg0NTEwNjY5LDUxMjU5OTcxNV19
 -->
