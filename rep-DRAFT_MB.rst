@@ -94,7 +94,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 		yaw_bias_deg: 0.0
 		IMU_time_bias_sec: 0.0
 		
-**FIX:** Parameters are not captured in a ROS BAG file I don't think. So a BAG is replayed in a ROS environment, these parameters may have changed and may not reflect the values in force at the time the MBES data was recorded. This problem likely persists across other ROS nodes in which offsets are 
+**FIX:** Parameters are not captured in a ROS BAG file I don't think. So if a BAG is replayed in a ROS environment, these parameters may have changed and may not reflect the values in force at the time the MBES data was recorded. This problem likely persists across other ROS nodes in which offsets are 
 
 
 Messages
@@ -732,7 +732,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk5MTgyNTAsLTE2NjI2MTA3ODIsMz
+eyJoaXN0b3J5IjpbLTE1MTIzNzk0NDMsLTE2NjI2MTA3ODIsMz
 kzMDY2Njg1LC0xODMzMzg0MzQ2LC0xNzU2OTQ1MDgsLTIwMDg3
 NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3MDIsMTUxNDIwODg5NC
 wtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2LDE1NzIz
