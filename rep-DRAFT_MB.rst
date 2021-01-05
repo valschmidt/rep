@@ -60,15 +60,19 @@ Units
 ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [2]_, using SI units throughout (e.g. seconds for travel time, radians for beam angles and beam widths, etc.) with the following exceptions:
 
 * Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal in agreement with standard acoustic convention. 
-* Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
-* Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
+* Relative acoustic values shall be reported in decibels re 1 Volt or re 1 unit of measure.  
+* Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching the right-hand-rule and the MBES reference frame. 
 
+Time Latency
+----
 Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exceed the delay imparted by Ethernet or serial line buffers. Thus an IMU reporting attitude via serial line, but relying on the PC's system clock for time-stamping may suffer from a static latency that will cause "wobble" artifacts in the resulting data. Latencies of this type can be measured and corrected to great effect on the resulting sonar data. Patch test methods exist to measure such an offset and the result shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. 
 
 Note that for real-time applications using `robot_localization` to integrate IMU with position measurements, this time correction must be applied to the IMU message time stamp by the IMU ROS node prior to publishing. 
 
 Coordinate Frame Conventions
 -----
+The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicates a zero-padded index. 
+
 ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following clarifications:
 
 Consider a MBES looking from out of the transducer array face from behind, with transmit and receive arrays in a Mill's Cross formation. Imagine the long-axis of the transmit array aligned vertically and receive array orthogonal to and centered above it. From this viewpoint, the coordinate definitions shall be defined as follows:
@@ -79,7 +83,6 @@ Consider a MBES looking from out of the transducer array face from behind, with 
 
 Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively, with positive direction in accordance with the right-hand rule for those axes. For a vessel with the sonar mounted with transmit array parallel to the fore/aft axis of the vessel and receive array across-ships, roll is then starboard down, pitch is bow down and yaw is positive counter clockwise when looking down from above. Note that yaw is to be reported using the standard ROS convention with zero along the x-axis. 
 
-The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicates a zero-padded index. 
 
 Parameters
 -----
@@ -727,7 +730,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTI3NDU2OSwzOTMwNjY2ODUsLTE4Mz
+eyJoaXN0b3J5IjpbLTkzMjE0MjU5OSwzOTMwNjY2ODUsLTE4Mz
 MzODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5
 MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMj
 g4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5
