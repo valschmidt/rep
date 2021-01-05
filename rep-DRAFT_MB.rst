@@ -80,7 +80,7 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exce often can be achieved by application a static offset between systems. Patch test methods exist to measure such an offset and shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. 
+Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exceed the delay imparted by serial line buffers. Thus an IMU reporting attitude via serial line, but relying on the PC's system clock for time-stamping,  often can be achieved by application a static offset between systems. Patch test methods exist to measure such an offset and shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. 
 
 Coordinate Frame Conventions
 -----
@@ -742,10 +742,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTY5OTI1LDEwNDYzMTkwMDIsOTMyNT
-A1NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIs
-MjExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1ND
-Y0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEw
-MSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0OD
-Q1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbLTYwOTUyMDQ1NywxMDQ2MzE5MDAyLDkzMj
+UwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAy
+LDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNT
+Q2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUx
+MDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsND
+g0NTEwNjY5LDUxMjU5OTcxNV19
 -->
