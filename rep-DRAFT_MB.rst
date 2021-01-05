@@ -99,17 +99,14 @@ The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicat
 
 Parameters
 -----
-A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets from the base_link reference frame. However patch test values for 
-	mbes/correctors:
-	    roll_bias_deg: 0.0,
-	    pitch_bias_deg: 0.0,
-	    yaw_bias_deg: 0,0
-	 - header: {frame_id: "base_link"}, child_frame_id: "mbes", transform: {translation: {x: 0.0, y: 0.0, z: 0.0}, rotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0} } }
-	 header: {frame_id: "base_link"}
-	     child_frame_id: "mbes_01"
-	     transform: 
-	         translation: {x: 0,0, y: 0.0, z: 0.0}
-	         rotation: 
+A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets from the base_link reference frame. However patch test values for roll, pitch and yaw will be specified as parameters as follows:
+
+	mbes_XX/correctors:
+		roll_bias_deg: 0.0
+		pitch_bias_deg: 0.0
+		yaw_bias_deg: 0.0
+		time_bias_sec: 0.0
+		
 
 
 
@@ -746,7 +743,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTUwNTI4NSw5MzI1MDU3MDIsMTUxND
+eyJoaXN0b3J5IjpbMTA0NjMxOTAwMiw5MzI1MDU3MDIsMTUxND
 IwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2
 LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNz
 IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
