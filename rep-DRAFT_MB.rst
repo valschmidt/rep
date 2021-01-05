@@ -86,7 +86,7 @@ Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively
 
 Parameters
 -----
-A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets from the base_link reference frame. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published in MbesInfo messages. on the mbes_XX_info/ topic. Nodes using these parameters in real-time must use the info published values as these :
+A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published in MbesInfo messages. on the mbes_XX_info/ topic. Nodes using these parameters in real-time must use the info-topic-published values as these reflect currently accurate values. :
 
 	mbes_XX/correctors:
 		default_roll_bias_deg: 0.0
@@ -732,11 +732,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjY2Njc5MiwtMTUxMjM3OTQ0MywtMT
-Y2MjYxMDc4MiwzOTMwNjY2ODUsLTE4MzMzODQzNDYsLTE3NTY5
-NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5MDAyLDkzMjUwNTcwMi
-wxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAyLDIxMTA2
-MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1OD
-IsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4
-MTYxNzM5NV19
+eyJoaXN0b3J5IjpbMTk5NjE5MjA1NSwxNDEyNjY2NzkyLC0xNT
+EyMzc5NDQzLC0xNjYyNjEwNzgyLDM5MzA2NjY4NSwtMTgzMzM4
+NDM0NiwtMTc1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMD
+IsOTMyNTA1NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgz
+MzIyMDIsMjExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NT
+AsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3
+NDk1NTEwMV19
 -->
