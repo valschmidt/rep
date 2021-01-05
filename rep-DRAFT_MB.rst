@@ -80,7 +80,7 @@ Coordinate Frame Conventions
 ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following definitions:
 
 * x: 	Positive parallel to  the transmit array in the direction of the receive array.
-* y:  Positive 
+* y:  Positive parallel to the receive array in the direction to the left
 
 Parameters
 -----
@@ -718,8 +718,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTQ3MSwxNDg4NDE5OTUwLDEzNTQ2ND
-I1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEs
-MTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NT
-EwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNT
+Q2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUx
+MDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsND
+g0NTEwNjY5LDUxMjU5OTcxNV19
 -->
