@@ -36,9 +36,9 @@ Some sonar systems allow an operator to load a sound speed profile into the acqu
 
 Acoustic Received Level
 -----
-In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. This measurement can be a measure of the signal to noise ratio of the bottom detect. In addition, one can correct this value to provide the acoustic backscatter of the seafloor, which is a measure of its acoustic "hardness" and "roughness". 
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. This measurement can be a measure of the signal to noise ratio, and hence a proxy for uncertainty, of the bottom detect. In addition, one can correct this value to provide the acoustic backscatter of the seafloor, which is a measure of its acoustic "hardness" and "roughness", properties independent of the sonar itself. 
 
-Unfortunately, there is no agreed upon method across sonar vendors for measuring or reporting this value. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
+Unfortunately, there is no agreed upon method across sonar vendors for measuring or reporting this value. Although acoustic backscatter has been of great interest for those doing seafloor characterization, it has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
 A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. 
 
@@ -733,11 +733,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTI5MzYyNCwtMTgzMzM4NDM0NiwtMT
-c1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMDIsOTMyNTA1
-NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIsMj
-ExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0
-MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMS
-wxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1
-MTA2NjldfQ==
+eyJoaXN0b3J5IjpbOTEzNzc3MzEzLC0xODMzMzg0MzQ2LC0xNz
+U2OTQ1MDgsLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3
+MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMT
+EwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQy
+NTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLD
+E3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUx
+MDY2OV19
 -->
