@@ -36,7 +36,7 @@ Some sonar systems allow an operator to load a sound speed profile into the acqu
 
 Acoustic Received Level
 -----
-In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. This measurement, when corrected appropriately can provide the acoustic backscatter, which is a measure of the acoustic "hardness" and "roughness" of the seafloor, as well as the signal to noise ratio of the bottom detect. 
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. This measurement can be a measure of the signal to noise ratio of the bottom detect. In addition, one can correct this value to provide the acoustic backscatter of the seafloor, which is a measure of its acoustic "hardness" and "roughness". 
 
 Unfortunately, there is no agreed upon method across sonar vendors for measuring or reporting this value. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
@@ -733,7 +733,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk4NjUwNCwtMTgzMzM4NDM0NiwtMT
+eyJoaXN0b3J5IjpbLTIzMTI5MzYyNCwtMTgzMzM4NDM0NiwtMT
 c1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMDIsOTMyNTA1
 NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIsMj
 ExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0
