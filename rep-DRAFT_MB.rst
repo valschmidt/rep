@@ -80,7 +80,7 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-ROS message definitions of a acoustic measurements (including those defined here) shall include clear indications of whether values are absolute or relative. Bias values are used determined and scrutinized by humans and exception is made in the use of degrees in Euler Angle to improve the intuition of operators for the "correct" value. 
+ROS message definitions of a acoustic measurements (including those defined here) shall include clear indications of whether values are absolute or relative. Bias values are used determined and scrutinized by humans and exception is made in the use of degrees in Euler Angles to improve the intuition of operators for the "correct" value. 
 
 
 Coordinate Frame Conventions
@@ -93,7 +93,7 @@ Consider a MBES with transmit and receive arrays in a Mill's Cross formation, wi
 * y:  Positive parallel to the receive array in the direction to the left
 * z: Positive up, orthogonal as defined by the right-hand rule to the plane made by x and y.
 
-Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively, with positive direction in accordance with the right-hand rule. For a vessel with the sonar mounted with transmit array parallel to the fore/aft axis of the vessel and receive array across-ships, roll is then starboard down, pitch is bow down and yaw is positive counter clockwise when looking down from above. Note that yaw is to be reported using the standard ROS convention with zero along the x-axis. 
+Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively, with positive direction in accordance with the right-hand rule for those axes. For a vessel with the sonar mounted with transmit array parallel to the fore/aft axis of the vessel and receive array across-ships, roll is then starboard down, pitch is bow down and yaw is positive counter clockwise when looking down from above. Note that yaw is to be reported using the standard ROS convention with zero along the x-axis. 
 
 The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicates a zero-padded index. 
 
@@ -746,7 +746,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzODQwMTQ0LDE1MTQyMDg4OTQsLTY0Nz
+eyJoaXN0b3J5IjpbOTMyNTA1NzAyLDE1MTQyMDg4OTQsLTY0Nz
 YyMDU5LDEyODgzMzIyMDIsMjExMDYyMjM4NiwxNTcyMzc5NjE0
 LDE0ODg0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0Nz
 kyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMz
