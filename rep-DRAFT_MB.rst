@@ -80,7 +80,7 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-Time latency 
+Time synchronization between sonar and navigation systems must be established to 
 
 Coordinate Frame Conventions
 -----
@@ -742,10 +742,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTg5MjU2MywxMDQ2MzE5MDAyLDkzMj
-UwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAy
-LDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNT
-Q2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUx
-MDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsND
-g0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbODc2MzA0MjE2LDEwNDYzMTkwMDIsOTMyNT
+A1NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIs
+MjExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1ND
+Y0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEw
+MSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0OD
+Q1MTA2NjksNTEyNTk5NzE1XX0=
 -->
