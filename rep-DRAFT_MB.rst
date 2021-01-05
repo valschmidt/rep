@@ -80,8 +80,7 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-ROS message definitions of a acoustic measurements (including those defined here) shall include clear indications of whether values are absolute or relative. Bias values are used determined and scrutinized by humans and exception is made in the use of degrees in Euler Angles to improve the intuition of operators for the "correct" value. 
-
+Time latency 
 
 Coordinate Frame Conventions
 -----
@@ -743,10 +742,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjMxOTAwMiw5MzI1MDU3MDIsMTUxND
-IwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2
-LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNz
-IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
-OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
-I1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbLTQ2NTg5MjU2MywxMDQ2MzE5MDAyLDkzMj
+UwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAy
+LDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNT
+Q2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUx
+MDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsND
+g0NTEwNjY5LDUxMjU5OTcxNV19
 -->
