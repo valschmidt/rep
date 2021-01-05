@@ -66,15 +66,17 @@ Because of the complexity in calculating acoustic quantities properly, few sonar
 Conventions:
 =======
 Units
-
+------
+Unless otherwise noted,
 
 Frame Conventions
+-----
 
 Parameters
---------------
+-----
 
 Messages
-
+----
 
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
@@ -706,7 +708,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTU1NjYyMSwxMzU0NjQyNTgyLC0xNz
+eyJoaXN0b3J5IjpbLTU5MTg4MTQ0MywxMzU0NjQyNTgyLC0xNz
 IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
 OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
 I1OTk3MTVdfQ==
