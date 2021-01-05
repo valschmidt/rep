@@ -67,19 +67,20 @@ Finally, installation of a MBES aboard a vehicle is accompanied by a calibration
 
 IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either Magnetic North or a measure of True North (Dual GPSs, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for East, North, Up (NEU) reference frames for map data and also Odometry pose data reported by the `robot_localization` package. 
  
- The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often re-done to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
+ The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often repeated to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
 
 Conventions:
 =======
+With the background provided above the follow guidelines are offered for use of MBESs in ROS. 
 Units
 ------
 ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [2]_, using SI units throughout (e.g. seconds for travel time, radians for beam angles and beam widths, etc.) with the following exceptions:
 
 * Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal.
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
-* Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame ( 
+* Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-ROS message definitions (including those defined here) shall include clear indications of whether values are absolute or relative. 
+ROS message definitions of a acoustic measurements (including those defined here) shall include clear indications of whether values are absolute or relative. 
 
 
 Coordinate Frame Conventions
@@ -745,7 +746,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTY0NzY0OSwxNTE0MjA4ODk0LC02ND
+eyJoaXN0b3J5IjpbMTY0NjkzMjE4OCwxNTE0MjA4ODk0LC02ND
 c2MjA1OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYx
 NCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsND
 c5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgz
