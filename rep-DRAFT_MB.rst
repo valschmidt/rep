@@ -51,7 +51,7 @@ to the format guidelines set forth below.  Use this template, in
 conjunction with the format guidelines below, to ensure that your
 REP submission won't get automatically rejected because of form.
 
-In addition to two-way travel time along each beam, MBES often record some indication of the acoustic intensity of the received signal as
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and it 
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
 maintaining easy readability in the source text.  The processed HTML
@@ -679,6 +679,6 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTA5MDc4OCwtMTAxMTk4NTU4OCw0OD
-Q1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbLTE2MTMxODk5MDcsLTEwMTE5ODU1ODgsND
+g0NTEwNjY5LDUxMjU5OTcxNV19
 -->
