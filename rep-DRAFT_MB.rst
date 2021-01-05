@@ -20,6 +20,8 @@ There are many manufacturers of MBES and their capabilities can vary widely. The
 
 Introduction to Multibeam Echo Sounders (MBES) 
 ==========
+Basic Operation
+''''''''''''''
 Fundimentally, a MBES measures, with each "ping", the two-way travel time to the seafloor along a fan of beams, typically downward looking, and oriented across-track to the direction of travel. Although other configurations are possible, the traditional MBES is composed of two linear arrays of transducers arranged in a "Mills Cross" configuration. In this configuration the sonar transmits on one linear array, oriented in the direction of travel of the vessel, and receives acoustic returns on a second linear array arranged orthogonal to the transmit array (in the across-track direction). 
 
 The "beams" are synthetically generated at pre-determined angles through coherent combination of  signals recorded from individual receive elements along the transducer array. Correct generation of beam pointing angles requires realtime measurement of sound speed in the immediate vicinity of the array (more on this later). The pointing angles of each beam relative to the sonar can be fixed, but more often are varied by the system dynamically to compensate for the vessel (and therefore sonar's) pitch and roll. Beam pointing angles may have equal or varied beam-to-beam spacing, and a common arrangement is for the system to vary the angular spacing dynamically to produce equal across-track distance between measurements made on a flat seafloor. MBESs are often characterized by their "nadir" [See the note regarding this term.] transmit and receive beam widths, as these specs provide some indication of the physical size of the arrays for a given operating acoustic frequency, and also the nominal resolving capability of the system. (In a traditional installation, transmit and receive beam widths correspond to along-track and across-track beam widths.) The Nadir beam width is specified because beam widths increase for any beam pointed off nadir, (an artifact of beam steering) thus the nadir beam, provides a consistent comparison. 
@@ -43,7 +45,7 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel got water column data) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength. Unfortunately these terms are commonly misused to describe them. 
 
 Patch Test
-
+-----
 Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a set of data whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the estimates of pitch, roll and yaw from the filtered output of an IMU. 
 
 IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either Magnetic North or a measure of True North (Dual GPSs, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for map data adhering to the East, North, Up (NEU) convention and also nav_msgs/Odometry message pose data reported by the `robot_localization` package. 
@@ -725,11 +727,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODg5MzEwLC0xNzU2OTQ1MDgsLTIwMD
-g3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3MDIsMTUxNDIwODg5
-NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2LDE1Nz
-IzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMz
-MDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsND
-g0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTE4MzMzODQzNDYsLTE3NTY5NDUwOCwtMj
+AwODc2NTQwMiwxMDQ2MzE5MDAyLDkzMjUwNTcwMiwxNTE0MjA4
+ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMT
+U3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5
+MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NS
+w0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5
+OTcxNV19
 -->
