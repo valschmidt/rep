@@ -77,7 +77,10 @@ ROS message definitions (including those defined here) shall include clear indic
 
 Coordinate Frame Conventions
 -----
-ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness). The  
+ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following definitions:
+
+* x: 	Positive parallel to  the transmit array in the direction of the receive array.
+* y:  Positive 
 
 Parameters
 -----
@@ -715,8 +718,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNz
-IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
-OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
-I1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbMTUzMTQ3MSwxNDg4NDE5OTUwLDEzNTQ2ND
+I1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEs
+MTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NT
+EwNjY5LDUxMjU5OTcxNV19
 -->
