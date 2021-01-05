@@ -83,9 +83,9 @@ Consider a MBES with transmit and receive arrays in a Mill's Cross formation, wi
 
 * x: 	Positive parallel to  the transmit array in the direction of the receive array.
 * y:  Positive parallel to the receive array in the direction to the left
-* z: Positive up, orthogonal to the plane made by x and y.
+* z: Positive up, orthogonal as defined by the right-hand rule to the plane made by x and y.
 
-Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively, with positive direction in accordance with the right-hand rule. For a vessel with the sonar mounted in the traditional way - transmit array parallel to the fore/aft axis of the vessel and receive array across-ships, roll is then Starboard down, pitch is bow down and yaw is positive counter clockwise when looking down from above. Note that yaw is to be reported using the standard ROS convention with zero along the x-axis. 
+Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively, with positive direction in accordance with the right-hand rule. For a vessel with the sonar mounted with transmit array parallel to the fore/aft axis of the vessel and receive array across-ships, roll is then starboard down, pitch is bow down and yaw is positive counter clockwise when looking down from above. Note that yaw is to be reported using the standard ROS convention with zero along the x-axis. 
 
 Parameters
 -----
@@ -723,8 +723,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjM5OTM1MiwxNTcyMzc5NjE0LDE0OD
-g0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4
-NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMT
-AxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbMjUyOTA0MDE4LDE1NzIzNzk2MTQsMTQ4OD
+QxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1
+MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMD
+ExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
 -->
