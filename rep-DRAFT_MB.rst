@@ -96,7 +96,10 @@ Parameters
 
 	 - header: {frame_id: "base_link"}, child_frame_id: "mbes", transform: {translation: {x: 0.0, y: 0.0, z: 0.0}, rotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0} } }
 	 header: {frame_id: "base_link"}
-	     child_frame_id:
+	     child_frame_id: "mbes_01"
+	     transform: 
+	         translation: {x: 0,0, y: 0.0, z: 0.0}
+	         rotation: 
 
 
 
@@ -733,9 +736,9 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODAwMzgwNCwyMTEwNjIyMzg2LDE1Nz
-IzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMz
-MDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsND
-g0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTE3NTQyNjU5MDMsMjExMDYyMjM4NiwxNT
+cyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkz
+MzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LD
+Q4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5
+NzE1XX0=
 -->
