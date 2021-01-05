@@ -73,7 +73,7 @@ Coordinate Frame Conventions
 -----
 The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicates a zero-padded index. 
 
-ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following clarifications:
+ROS messaging for MBESs shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following clarifications:
 
 Consider a MBES looking from out of the transducer array face from behind, with transmit and receive arrays in a Mill's Cross formation. Imagine the long-axis of the transmit array aligned vertically and receive array orthogonal to and centered above it. From this viewpoint, the coordinate definitions shall be defined as follows:
 
@@ -94,7 +94,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 		yaw_bias_deg: 0.0
 		IMU_time_bias_sec: 0.0
 		
-
+**FIX:** 
 
 
 Messages
@@ -730,7 +730,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjE0MjU5OSwzOTMwNjY2ODUsLTE4Mz
+eyJoaXN0b3J5IjpbMjExMTQ1NDU5NywzOTMwNjY2ODUsLTE4Mz
 MzODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5
 MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMj
 g4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5
