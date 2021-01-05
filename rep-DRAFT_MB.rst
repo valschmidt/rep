@@ -57,10 +57,10 @@ Some sonar systems allow an operator to load a sound speed profile into the acqu
 
 In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
-> A few terms are worth defining to prevent confusion, as outside the 
->* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface or volume to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). 
->* The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
->* The term "acoustic intensity" is a measure of acoustic energy, of a signal. 
+A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused. 
+* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface or volume to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). 
+* The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
+* The term "acoustic intensity" is a measure of acoustic energy, of a signal. 
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
@@ -691,7 +691,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY4NjYxNDMsMTA3NDk1NTEwMSwxNz
+eyJoaXN0b3J5IjpbLTE2MzA5OTAzMDcsMTA3NDk1NTEwMSwxNz
 gxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2
 NjksNTEyNTk5NzE1XX0=
 -->
