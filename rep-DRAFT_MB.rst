@@ -67,7 +67,7 @@ Conventions:
 =======
 Units
 ------
-Unless otherwise noted,
+ROS messages reporting the data or operations of MBES shall adhere to REP 103 [2]_ 
 
 Frame Conventions
 -----
@@ -708,8 +708,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTg4MTQ0MywxMzU0NjQyNTgyLC0xNz
-IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
-OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
-I1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbNTc2NjM0NzUxLDEzNTQ2NDI1ODIsLTE3Mj
+E5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5
+NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMj
+U5OTcxNV19
 -->
