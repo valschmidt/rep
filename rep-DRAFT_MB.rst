@@ -72,11 +72,12 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal.
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.   
 
-ROS message definitions (including those defined here) shall include clear indications 
+ROS message definitions (including those defined here) shall include clear indications of whether values are absolute or relative. 
 
 
 Frame Conventions
 -----
+ROS messaging shall adopt REP 102 [2]_ standard for axis orientation 
 
 Parameters
 -----
@@ -714,8 +715,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODk1MTY0MCwxMzU0NjQyNTgyLC0xNz
-IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
-OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
-I1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbLTE5MDE2NDk0MTIsMTM1NDY0MjU4MiwtMT
+cyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3
+Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNT
+EyNTk5NzE1XX0=
 -->
