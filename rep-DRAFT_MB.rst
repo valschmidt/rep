@@ -63,7 +63,7 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often re-done to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in a subsequent step. 
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often re-done to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
 
 Conventions:
 =======
@@ -81,7 +81,7 @@ Coordinate Frame Conventions
 -----
 ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following clarifications:
 
-Consider a MBES with transmit and receive arrays in a Mill's Cross formation, with the long-axis of the transmit array aligned vertically and receive array orthogonal to  and centered above it. Looking down from the top. The coordinate definitions shall be defined as follows:
+Consider a MBES with transmit and receive arrays in a Mill's Cross formation, with the long-axis of the transmit array aligned vertically and receive array orthogonal to and centered above it when looking at the two arrays down from above. Looking down from the top, the coordinate definitions shall be defined as follows:
 
 * x: 	Positive parallel to  the transmit array in the direction of the receive array.
 * y:  Positive parallel to the receive array in the direction to the left
@@ -728,8 +728,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MzY4MjQ2LDE1NzIzNzk2MTQsMTQ4OD
-QxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1
-MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMD
-ExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbMTU4ODM4NDE5NiwxNTcyMzc5NjE0LDE0OD
+g0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4
+NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMT
+AxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
 -->
