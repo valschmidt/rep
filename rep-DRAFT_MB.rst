@@ -99,7 +99,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 
 Messages
 ----
-%% Node Architecture: graph LR mbes_node[Square Rect] -- RawMBES.msg/ --> mbes_point_generator[Square Rect] -- PcMBES.msg/ -->
+%% Node Architecture: graph LR A[mbes_node] -- RawMBES.msg/ --> mbes_point_generator[Square Rect] -- PcMBES.msg/ -->
 
 
 
@@ -732,11 +732,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIzNzk0NDMsLTE2NjI2MTA3ODIsMz
-kzMDY2Njg1LC0xODMzMzg0MzQ2LC0xNzU2OTQ1MDgsLTIwMDg3
-NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3MDIsMTUxNDIwODg5NC
-wtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2LDE1NzIz
-Nzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMD
-AxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0
-NzA4MzMwXX0=
+eyJoaXN0b3J5IjpbMTAzNjk5NDk2MywtMTUxMjM3OTQ0MywtMT
+Y2MjYxMDc4MiwzOTMwNjY2ODUsLTE4MzMzODQzNDYsLTE3NTY5
+NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5MDAyLDkzMjUwNTcwMi
+wxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAyLDIxMTA2
+MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1OD
+IsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4
+MTYxNzM5NV19
 -->
