@@ -63,9 +63,9 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 * The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
 * The term "acoustic intensity" is a measure of acoustic energy, of a  received signal. Acoustic intensity, when expressed in linear (as opposed to decibel units) is proportional to the mean square value of the received signal. 
 * The term "acoustic magnitude" is proportional to acoustic pressure of the received acoustic signal. The SI unit for pressure is the Pascal. 
-* Finally because these measurements range over many orders of magnitude, they are converted to decibels in science and engineering. Decibels are 10 x the base 10 logarithm, of the **ratio** of a measurement to a reference value. Thus any measurement reported in decibels is meaningless without an explicit statement of the reference. The internationally agreed to reference value for underwater acoustics is 1 micro-Pascal, and one will see "120 dB re 1 micro-Pascal" in the acoustic literature. It is not uncommon in engineering to see measured voltages expressed in decibel form referenced to 1 Volt, or even 1 measurement step, where a measurement step is the maximum precision of an analog-to-digital converter. Unfortunately, it is also not uncommon for the reference value in these engineering measurements to be omitted or implied. 
+* Finally because these measurements range over many orders of magnitude, they are converted to decibels in science and engineering. Decibels are 10 x the base 10 logarithm, of the **ratio** of a measurement to a reference value. Thus any measurement reported in decibels is meaningless without an explicit statement of the reference. The internationally agreed to reference value for underwater acoustics is 1 micro-Pascal, and one will see "120 dB re 1 micro-Pascal" in the acoustic literature. It is not uncommon in engineering to see measured voltages expressed in decibel form referenced to 1 Volt, or even 1 measurement step, where a measurement step is the maximum precision of an analog-to-digital converter. Unfortunately, it is also not uncommon for the reference value in these engineering measurements to be omitted or implied. This has historically caused no end of confusion.
 
-Because of the complexity in calculating the acoustic 
+Because of the complexity in calculating the acoustic quantities properly, few sonar systems report anything but the received signal level as it was measured by the
 
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
@@ -697,7 +697,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzczMTUzMiw0NzkyNjc4NTIsMTA3ND
+eyJoaXN0b3J5IjpbLTkwNjIyOTAyOSw0NzkyNjc4NTIsMTA3ND
 k1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4
 OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
 -->
