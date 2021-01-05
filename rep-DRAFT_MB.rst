@@ -51,7 +51,8 @@ to the format guidelines set forth below.  Use this template, in
 conjunction with the format guidelines below, to ensure that your
 REP submission won't get automatically rejected because of form.
 
-In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and it 
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and each sonar system does it differently. This has caused considerable confusion  it has caused great confus
+
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
 maintaining easy readability in the source text.  The processed HTML
@@ -656,7 +657,7 @@ list`_.  The `Docutils project web site`_ has more information.
 References
 ==========
 
-[..1] 
+[..1] Lamarche, G., Lurton, X. Introduction to the Special Issue “Seafloor backscatter data from swath mapping echosounders: from technological development to novel applications”. _Mar Geophys Res_  **39,** 1–3 (2018). https://doi.org/10.1007/s11001-018-9349-4
 
 .. [1] REP 1, REP Purpose and Guidelines, Warsaw, Hylton
    (https://ros.org/reps/rep-0001.html)
@@ -681,6 +682,6 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4ND
-UxMDY2OSw1MTI1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbOTI5ODczNDIxLDQ4NDcwODMzMCwtMTAxMT
+k4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
 -->
