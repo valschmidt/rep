@@ -57,7 +57,7 @@ Some sonar systems allow an operator to load a sound speed profile into the acqu
 
 In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
-> The term "backscatter" refers to an acoustic measurement of the reflected acoustic energy of a surface or volume normalized by the ensonified area (or volume). Few sonars atte
+> A few terms are worth defining to prevent confusion. The term "acoustic backscatter" refers to an acoustic measurement of the reflected acoustic energy of a surface or volume normalized by the ensonified area (or volume). The term "acoustic target strength" is a measurement of the reflected acoustic energy wi 
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
@@ -688,7 +688,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDA2NjkwNSwxMDc0OTU1MTAxLDE3OD
+eyJoaXN0b3J5IjpbMTM1OTU5MDE0NywxMDc0OTU1MTAxLDE3OD
 E2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2
 OSw1MTI1OTk3MTVdfQ==
 -->
