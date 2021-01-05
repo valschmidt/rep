@@ -14,34 +14,13 @@ Abstract
 
 Multibeam echo sounders (MBES) are swath mapping sonar systems, that is, "push broom" type acoustic sensors common to surface and submerged marine robots for mapping and characterizing the seafloor and water column. This REP provides a standard set of conventions for encoding and interpreting data from these sensors. 
 
-
-This REP provides a boilerplate or sample template for creating your
-own reStructuredText REPs.  In conjunction with the content guidelines
-in REP 1 [1]_, this should make it easy for you to conform your own
-REPs to the format outlined below.
-
-Note: if you are reading this REP via the web, you should first grab
-the text (reStructuredText) source of this REP in order to complete
-the steps below.  **DO NOT USE THE HTML FILE AS YOUR TEMPLATE!**
-
-To get the source this (or any) REP, look at the top of the HTML page
-and click on the date & time on the "Last-Modified" line.  It is a
-link to the source text in the ROS repository.
-
-If you would prefer not to use markup in your REP, please see REP 9,
-"Sample Plaintext REP Template" [2]_.
-
-This template is entirely based on the PEP 9 template by David Goodger
-and Barry Warsaw.  The Author field of this document has been changed
-in order to reflect reponsibility for maintenance.
-
 Rationale
 =========
 There are many manufacturers of MBES and their capabilities can vary widely. The effort of this REP is to establish standard conventions for the essential common parameters for these systems, including reference frames and units.  
 
 Introduction to Multibeam Echo Sounders (MBES) 
 ==========
-Fundimentally, a MBES measures with each "ping" the two-way travel time to the seafloor along a fan of beams, typically downward looking, and oriented across-track to the direction of travel. Although other configurations are possible, the traditional MBES is composed of two linear arrays of transducers arranged in a "Mills Cross" configuration. In this configuration the sonar transmits one one linear array, oriented in the direction of travel of the vessel, and receives acoustic returns on a second linear array arranged orthogonal to the transmit array (in the across-track direction). 
+Fundimentally, a MBES measures, with each "ping", the two-way travel time to the seafloor along a fan of beams, typically downward looking, and oriented across-track to the direction of travel. Although other configurations are possible, the traditional MBES is composed of two linear arrays of transducers arranged in a "Mills Cross" configuration. In this configuration the sonar transmits on one linear array, oriented in the direction of travel of the vessel, and receives acoustic returns on a second linear array arranged orthogonal to the transmit array (in the across-track direction). 
 
 The "beams" are synthetically generated at pre-determined angles through coherent combination of  signals recorded from individual receive elements along the transducer array. Correct generation of beam pointing angles requires realtime measurement of sound speed in the immediate vicinity of the array (more on this later). The pointing angles of each beam relative to the sonar can be fixed, but more often are varied by the system dynamically to compensate for the vessel (and therefore sonar's) pitch and roll. Beam pointing angles may have equal or varied beam-to-beam spacing, and a common arrangement is for the system to vary the angular spacing dynamically to produce equal across-track distance between measurements made on a flat seafloor. MBESs are often characterized by their "nadir" [See the note regarding this term.] transmit and receive beam widths, as these specs provide some indication of the physical size of the arrays for a given operating acoustic frequency, and also the nominal resolving capability of the system. (In a traditional installation, transmit and receive beam widths correspond to along-track and across-track beam widths.) The Nadir beam width is specified because beam widths increase for any beam pointed off nadir, (an artifact of beam steering) thus the nadir beam, provides a consistent comparison. 
 
@@ -744,10 +723,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5Mz
-I1MDU3MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIw
-MiwyMTEwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMz
-U0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1
-MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LD
-Q4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMD
+Q2MzE5MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1
+OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxND
+g4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3
+ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLT
+EwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
 -->
