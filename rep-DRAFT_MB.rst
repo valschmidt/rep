@@ -67,7 +67,9 @@ Conventions:
 =======
 Units
 ------
-ROS messages reporting the data or operations of MBES shall adhere to REP 103 [2]_ 
+ROS messages reporting the data or operations of MBES shall adhere to REP 103 [2]_, using SI units throughout with the following exception:
+
+For acoustic measurements and those directly related to the acoustic signal level, one may specify decibel 
 
 Frame Conventions
 -----
@@ -708,7 +710,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2NjM0NzUxLDEzNTQ2NDI1ODIsLTE3Mj
+eyJoaXN0b3J5IjpbMzA3ODYxMjc3LDEzNTQ2NDI1ODIsLTE3Mj
 E5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5
 NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMj
 U5OTcxNV19
