@@ -80,7 +80,7 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exceed the delay imparted by serial line buffers. Thus an IMU reporting attitude via serial line, but relying on the PC's system clock for time-stamping may suffer from these a mean static latency that can be corrected to great effect on the resulting sonar data. Patch test methods exist to measure such an offset and shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. Note that fo
+Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exceed the delay imparted by serial line buffers. Thus an IMU reporting attitude via serial line, but relying on the PC's system clock for time-stamping may suffer from these a mean static latency that can be corrected to great effect on the resulting sonar data. Patch test methods exist to measure such an offset and shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. Note that for real-time applications, this time correction must be applied to the IMU message time stamp on acquisition. 
 
 Coordinate Frame Conventions
 -----
@@ -742,7 +742,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE0MzUzMDMsMTA0NjMxOTAwMiw5Mz
+eyJoaXN0b3J5IjpbLTEzMDk1OTMzMjAsMTA0NjMxOTAwMiw5Mz
 I1MDU3MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIw
 MiwyMTEwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMz
 U0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1
