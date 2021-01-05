@@ -48,11 +48,12 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 * The term "acoustic magnitude" is proportional to acoustic pressure of the received acoustic signal. The SI unit for pressure is the Pascal. 
 * Finally because these measurements range over many orders of magnitude, they are converted to decibel level in science and engineering. Decibels are 10 x the base-10 logarithm, of the **ratio** of a measurement to a reference value. Thus any measurement reported in decibels is meaningless without an explicit statement of the reference value. The internationally agreed to reference value for underwater acoustics is 1 micro-Pascal, and one will see "120 dB re 1 micro-Pascal"to indicate the reference in the acoustic literature. It is not uncommon in engineering to see measured voltages expressed in decibel form referenced to 1 Volt, or even 1 measurement step, where a measurement step is the maximum precision of an analog-to-digital converter. Unfortunately, it is also not uncommon for the reference value in these engineering measurements to be omitted or implied. This has historically caused no end of confusion.
 
-Because of the complexity in calculating "acoustic" quantities, such as backscatter or "target strength" properly, few sonar systems actually attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel got water column data) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength. Unfortunately these terms are commonly misused to describe them. 
+Because of the complexity in calculating "acoustic" quantities, such as backscatter or "target strength" properly, few sonar systems actually attempt to report them in real time, leaving the effort to post-processing efforts designed specifically for this purpose. They instead often report the received signal associated with the bottom detect (or voxel got water column data) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, but is a proxy for incoherent signal to noise, which is directly related to the uncertainty of the bottom detection. 
+
 
 Patch Test
 -----
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a set of data whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the estimates of pitch, roll and yaw from the filtered output of an IMU. 
+Installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a set of data whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the estimates of pitch, roll and yaw from the filtered output of an IMU. 
 
 IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either Magnetic North or a measure of True North (Dual GPSs, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for map data adhering to the East, North, Up (NEU) convention and also nav_msgs/Odometry message pose data reported by the `robot_localization` package. 
  
@@ -733,11 +734,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg5MTMxMDEsLTE4MzMzODQzNDYsLT
-E3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5MDAyLDkzMjUw
-NTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAyLD
-IxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2
-NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMD
-EsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0
-NTEwNjY5XX0=
+eyJoaXN0b3J5IjpbNDExNjQxNjE0LC0xODMzMzg0MzQ2LC0xNz
+U2OTQ1MDgsLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3
+MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMT
+EwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQy
+NTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLD
+E3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUx
+MDY2OV19
 -->
