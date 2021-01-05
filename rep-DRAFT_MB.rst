@@ -51,7 +51,9 @@ to the format guidelines set forth below.  Use this template, in
 conjunction with the format guidelines below, to ensure that your
 REP submission won't get automatically rejected because of form.
 
-The calculation of depth relative to the echo-sounder from the two-way travel time measurement made along each beam has a big complicating factor, and that is that the speed of sound in water is not constant. Variations in sound speed not only cause acoustic signals to speed up or slow down, but also to bend or refract as they propagate through the water column. This refraction must be modeled to obtain true measurements of the seafloor. Sound speed varies with water temperature, salinity and depth (more precisely hydrostatic pressure), and so MBES data is accompanied by vertical profiles of sound speed measurement from the surface to the sea floor, which are used to model the acoustic propagation of the signal. 
+The calculation of depth relative to the echo-sounder from the two-way travel time measurement made along each beam has a big complicating factor, and that is that the speed of sound in water is not constant. Variations in sound speed not only cause acoustic signals to speed up or slow down, but also to bend or refract as they propagate through the water column. This refraction must be modeled to obtain true measurements of the seafloor. Sound speed varies with water temperature, salinity and depth (more precisely hydrostatic pressure), and so  in addition to the sound speed measured in real-time at the sonar head, MBES data is accompanied by vertical profiles of sound speed measurement through the water column, which are used to model the acoustic propagation of the signal. 
+
+Some sonar systems 
 
 In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists, and mis-understandings in the meaning of the measurement. The topic is very complex and interested readers   to among sonar vendors,  it has caused great confus
 
@@ -684,7 +686,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzkzNzk4NCwxNzgxNjE3Mzk1LDQ4ND
-cwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1
-XX0=
+eyJoaXN0b3J5IjpbLTE0ODUzNTkzODAsMTc4MTYxNzM5NSw0OD
+Q3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcx
+NV19
 -->
