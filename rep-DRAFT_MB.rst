@@ -79,7 +79,7 @@ Coordinate Frame Conventions
 -----
 ROS messaging shall adopt REP 103 [2]_ standard for axis orientation and chirality (right handedness), with the following clarifications:
 
-Consider
+Consider a MBES with transmit and receive arrays in a Mill's Cross formation, transmit aligned vertically and receive centered above it, looking down from the top. The coordinate definitions shall be defined as follows:
 
 * x: 	Positive parallel to  the transmit array in the direction of the receive array.
 * y:  Positive parallel to the receive array in the direction to the left
@@ -720,8 +720,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NTA1MzM4LDE1NzIzNzk2MTQsMTQ4OD
-QxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1
-MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMD
-ExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbLTE3ODMwNzE3MDQsMTU3MjM3OTYxNCwxND
+g4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3
+ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLT
+EwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
 -->
