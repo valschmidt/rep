@@ -51,7 +51,7 @@ to the format guidelines set forth below.  Use this template, in
 conjunction with the format guidelines below, to ensure that your
 REP submission won't get automatically rejected because of form.
 
-In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design, inconsistent treatment by scientists, mis-understandings in the meaning of the measurement among many others.  to among sonar vendors,  it has caused great confus
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists, and mis-understandings in the meaning of the measurement. The topic is very complex and interested readers   to among sonar vendors,  it has caused great confus
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
@@ -682,6 +682,6 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNzY3MzgxLDQ4NDcwODMzMCwtMTAxMT
-k4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMT
+E5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
 -->
