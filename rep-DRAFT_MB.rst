@@ -85,7 +85,7 @@ Consider a MBES with transmit and receive arrays in a Mill's Cross formation, wi
 * y:  Positive parallel to the receive array in the direction to the left
 * z: Positive up, orthogonal to the plane made by x and y.
 
-Roll and Pitch shall indicate rotation about y and x axes, respectively, a
+Roll and Pitch shall indicate rotation about x and y axes, respectively, with positive direction in accordance with the right-hand rule. For a vessel with the sonar mounted
 
 Parameters
 -----
@@ -723,8 +723,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzQxMjM2OCwxNTcyMzc5NjE0LDE0OD
-g0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4
-NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMT
-AxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbLTEwODQ5NjY5MzIsMTU3MjM3OTYxNCwxND
+g4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3
+ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLT
+EwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
 -->
