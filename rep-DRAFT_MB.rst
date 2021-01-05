@@ -94,7 +94,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 		yaw_bias_deg: 0.0
 		IMU_time_bias_sec: 0.0
 		
-**FIX:** 
+**FIX:** Parameters are not captured in a ROS BAG file I don't think. So a BAG is replayed in a ROS environment, 
 
 
 Messages
@@ -730,7 +730,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTQ1NDU5NywzOTMwNjY2ODUsLTE4Mz
+eyJoaXN0b3J5IjpbMTg5ODk4MTQxMywzOTMwNjY2ODUsLTE4Mz
 MzODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5
 MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMj
 g4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5
