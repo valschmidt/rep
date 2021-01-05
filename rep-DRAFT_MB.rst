@@ -86,7 +86,7 @@ Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively
 
 Parameters
 -----
-A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published on the `mbes_XX_info/` topic. Nodes using these parameters in real-time must use the info-topic-published values as these reflect currently accurate values values and will be captured by BAG recordings. :
+A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published on the `mbes_info/` topic whose header will identify the MBES to which the . Nodes using these parameters in real-time must use the info-topic-published values as these reflect currently accurate values values and will be captured by BAG recordings. :
 
 	mbes_XX/correctors:
 		default_roll_bias_deg: 0.0
@@ -97,7 +97,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 
 Messages
 ----
-%% Node Architecture: graph LR A[mbes_XX_node] -- RawMBES.msg --> B[mbes_point_generator] A -- MbesInfo.msg --> B B -- PcMBES.msg/ --> C[?]
+%% Node Architecture: graph LR A[mbes_node] -- RawMBES.msg --> B[mbes_point_generator] A -- MbesInfo.msg --> B B -- PcMBES.msg/ --> C[?]
 
 
 
@@ -730,11 +730,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE1NTI5NDksMTQxMjY2Njc5MiwtMT
-UxMjM3OTQ0MywtMTY2MjYxMDc4MiwzOTMwNjY2ODUsLTE4MzMz
-ODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5MD
-AyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4
-MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OT
-UwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEw
-NzQ5NTUxMDFdfQ==
+eyJoaXN0b3J5IjpbLTMxMDc4NDc0OSwxNDEyNjY2NzkyLC0xNT
+EyMzc5NDQzLC0xNjYyNjEwNzgyLDM5MzA2NjY4NSwtMTgzMzM4
+NDM0NiwtMTc1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMD
+IsOTMyNTA1NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgz
+MzIyMDIsMjExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NT
+AsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3
+NDk1NTEwMV19
 -->
