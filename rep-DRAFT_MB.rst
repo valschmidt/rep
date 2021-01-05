@@ -53,12 +53,13 @@ IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with
 
 Conventions:
 =======
-With the background provided above the follow guidelines are offered for use of MBESs in ROS. 
+With the background provided above the follow guidelines are offered for use of MBESs in ROS.
+
 Units
 ------
 ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [2]_, using SI units throughout (e.g. seconds for travel time, radians for beam angles and beam widths, etc.) with the following exceptions:
 
-* Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal.
+* Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal in agreement with standard acoustic convention. 
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
@@ -726,11 +727,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMDY2Njg1LC0xODMzMzg0MzQ2LC0xNz
-U2OTQ1MDgsLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3
-MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMT
-EwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQy
-NTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLD
-E3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUx
-MDY2OV19
+eyJoaXN0b3J5IjpbLTQ4MTI3NDU2OSwzOTMwNjY2ODUsLTE4Mz
+MzODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMDQ2MzE5
+MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMj
+g4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5
+OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLD
+EwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5
+ODU1ODhdfQ==
 -->
