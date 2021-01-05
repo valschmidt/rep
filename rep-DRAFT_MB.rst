@@ -34,9 +34,9 @@ In addition to two-way travel time along each beam, MBESs often record the acous
 
 A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. 
 
-* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface (the seafloor) or volume (a portion of the water column) to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). Proper calculation of acoustic backscatter is extremely difficult, requiring corrections for the source level of the transmitted signal, transmit and receive radiation patterns (i.e. beam patterns), fixed and time varying gains applied by the system and acoustic absorption in the water column.  
+* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface (the seafloor) or a volume (a portion of the water column) to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). Proper calculation of acoustic backscatter is extremely difficult, requiring corrections for the source level of the transmitted signal, transmit and receive radiation patterns (i.e. beam patterns), fixed and time varying gains applied by the system and acoustic absorption in the water column.  
 * The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
-* The term "acoustic intensity" is a measure of acoustic energy, of a  received signal. Acoustic intensity, when expressed in linear (as opposed to decibel units) is proportional to the mean square value of the received signal. 
+* The term "acoustic intensity" is a measure of acoustic energy of a plane-wave intersecting the transdcuer. Acoustic intensity, when expressed in linear (as opposed to decibel units) is proportional to the mean square value of the received signal. 
 * The term "acoustic magnitude" is proportional to acoustic pressure of the received acoustic signal. The SI unit for pressure is the Pascal. 
 * Finally because these measurements range over many orders of magnitude, they are converted to decibel level in science and engineering. Decibels are 10 x the base-10 logarithm, of the **ratio** of a measurement to a reference value. Thus any measurement reported in decibels is meaningless without an explicit statement of the reference value. The internationally agreed to reference value for underwater acoustics is 1 micro-Pascal, and one will see "120 dB re 1 micro-Pascal"to indicate the reference in the acoustic literature. It is not uncommon in engineering to see measured voltages expressed in decibel form referenced to 1 Volt, or even 1 measurement step, where a measurement step is the maximum precision of an analog-to-digital converter. Unfortunately, it is also not uncommon for the reference value in these engineering measurements to be omitted or implied. This has historically caused no end of confusion.
 
@@ -723,10 +723,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY5NDUwOCwtMjAwODc2NTQwMiwxMD
-Q2MzE5MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1
-OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxND
-g4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3
-ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLT
-EwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbLTE2MTI1MjEwMzEsLTE3NTY5NDUwOCwtMj
+AwODc2NTQwMiwxMDQ2MzE5MDAyLDkzMjUwNTcwMiwxNTE0MjA4
+ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMT
+U3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5
+MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NS
+w0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5
+OTcxNV19
 -->
