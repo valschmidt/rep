@@ -57,14 +57,15 @@ Some sonar systems allow an operator to load a sound speed profile into the acqu
 
 In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
-A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. None of these
+A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. 
 
 * The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface or volume to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). Proper calculation of acoustic backscatter is extremely difficult, requiring corrections for the source level of the transmitted signal, transmit and receive radiation sensitivity (i.e. beam patterns), fixed and time varying gains applied by the system and acoustic absorption in the water column.  
 * The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
 * The term "acoustic intensity" is a measure of acoustic energy, of a  received signal. Acoustic intensity, when expressed in linear (as opposed to decibel units) is proportional to the mean square value of the received signal. 
 * The term "acoustic magnitude" is proportional to acoustic pressure of the received acoustic signal. The SI unit for pressure is the Pascal. 
+* Finally the 
 
-
+Because of the complexity in calculating the acoustic 
 
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
@@ -696,7 +697,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAwMDUzNzQsNDc5MjY3ODUyLDEwNz
-Q5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1
-ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbMTgyOTU1NjA4Miw0NzkyNjc4NTIsMTA3ND
+k1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4
+OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
 -->
