@@ -58,7 +58,7 @@ Some sonar systems allow an operator to load a sound speed profile into the acqu
 In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
 A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. 
-* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface or volume to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). 
+* The term "acoustic backscatter" refers to an acoustic measurement of the ratio of the reflected acoustic energy off a surface or volume to the incident acoustic energy, when this ratio has been normalized by the ensonified area (or volume). Proper calculation of acoustic backscatter is extremely difficult, requiring corrections for the source level of the transmitted signal, transmit and receive radiation sensitivity (i.e. beam patterns), fi, 
 * The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
 * The term "acoustic intensity" is a measure of acoustic energy, of a signal. 
 
@@ -691,7 +691,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjY0NDE0NywxMDc0OTU1MTAxLDE3OD
+eyJoaXN0b3J5IjpbMTM4MDczNjg4NSwxMDc0OTU1MTAxLDE3OD
 E2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2
 OSw1MTI1OTk3MTVdfQ==
 -->
