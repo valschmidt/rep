@@ -34,8 +34,11 @@ The calculation of depth relative to the echo-sounder from the two-way travel ti
 
 Some sonar systems allow an operator to load a sound speed profile into the acquisition software, which the system will then use to generate and report XYZ soundings in real-time as the data is collected. Other systems do not provide this capability, reporting only two-way travel time along each receive beam, leaving the calculation of XYZ points (and refraction correction) to other systems. Even for systems for which real-time generation of soundings is possible, it is not uncommon to re-correct for refraction in post-processing, possibly from sound speed profiles made after the sonar data was collected or in closer proximity to it. It is important to note that while it is possible to re-correct for refraction artifacts from sound speed profile data, because individual element-level data in the receive array is not retained, one cannot correct for errors in beam-pointing angle calculations that result from errors in sound speed measurement at the transducer head. None-the-less sound speed at the head is routinely recorded with the sonar data to provide some indication of the validity of the sound speed profile used for refraction correction.
 
-Acoustic 
-In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
+Acoustic Received Level
+-----
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. This measurement, when treated appropriately can be a measure of the acoustic "hardness" and "roughness" of the seafloor, as well as the signal to noise ratio of the bottom detect. 
+
+Unfortunately, there is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
 A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. 
 
@@ -730,11 +733,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MTUzNDIwLC0xODMzMzg0MzQ2LC0xNz
-U2OTQ1MDgsLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3
-MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMT
-EwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQy
-NTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLD
-E3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUx
-MDY2OV19
+eyJoaXN0b3J5IjpbMjAzMzE4NjUxOSwtMTgzMzM4NDM0NiwtMT
+c1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMDIsOTMyNTA1
+NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIsMj
+ExMDYyMjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0
+MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMS
+wxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1
+MTA2NjldfQ==
 -->
