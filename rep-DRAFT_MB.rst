@@ -65,7 +65,7 @@ Because of the complexity in calculating acoustic quantities properly, few sonar
 
 Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a set of data whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the estimates of pitch, roll and yaw from the filtered output of an IMU. 
 
-IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either Magnetic North or a measure of True North (Dual GPSs, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for East, North, Up (NEU) reference frames for map data and also Odometry pose data reported by the `robot_localization` package. 
+IMUs used in operation of MBESs estimate attitude (roll, pitch and heading) with respect to a  reference frame established by the local gravitational field (for pitch and roll) and either Magnetic North or a measure of True North (Dual GPSs, earth rotation, etc.) for yaw.   This convention is in keeping with conventions set forth in REP 105 for map data adhering to the East, North, Up (NEU) convention and also nav_msgs/Odometry message pose data reported by the `robot_localization` package. 
  
  The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often repeated to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
 
@@ -746,10 +746,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTI0OTM4OCw5MzI1MDU3MDIsMTUxND
-IwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2
-LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNz
-IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
-OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
-I1OTk3MTVdfQ==
+eyJoaXN0b3J5IjpbLTEzMDcwODcxMTcsOTMyNTA1NzAyLDE1MT
+QyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIsMjExMDYyMjM4
+NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0MjU4MiwtMT
+cyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3
+Mzk1LDQ4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNT
+EyNTk5NzE1XX0=
 -->
