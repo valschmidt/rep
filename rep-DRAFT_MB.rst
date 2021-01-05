@@ -39,7 +39,7 @@ Rationale
 =========
 There are many manufacturers of MBES and their capabilities can vary widely. The effort of this REP is to establish standard conventions for the essential common parameters for these systems, including reference frames and units.  
 
-MBES 
+Multibeam Echo Sounders (MBES) 
 -
 Fundimentally, a MBES measures with each "ping" the two-way travel time to the seafloor along a fan of beams, typically downward looking, and oriented across-track to the direction of travel. Although other configurations are possible, the traditional MBES is composed of two linear arrays of transducers arranged in a "Mills Cross" configuration. In this configuration the sonar transmits one one linear array, oriented in the direction of travel of the vessel, and receives acoustic returns on a second linear array arranged orthogonal to the transmit array (in the across-track direction). 
 
@@ -694,7 +694,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNz
-Q5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1
-ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0Nz
+kyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMz
+MCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
 -->
