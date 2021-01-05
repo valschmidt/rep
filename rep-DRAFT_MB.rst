@@ -63,6 +63,8 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibratio procedure to
+
 Conventions:
 =======
 Units
@@ -91,6 +93,7 @@ The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicat
 
 Parameters
 -----
+
 
 Messages
 ----
@@ -725,7 +728,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NTQ5MjUwLDE1NzIzNzk2MTQsMTQ4OD
+eyJoaXN0b3J5IjpbNTUyOTc1MjE4LDE1NzIzNzk2MTQsMTQ4OD
 QxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1
 MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMD
 ExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
