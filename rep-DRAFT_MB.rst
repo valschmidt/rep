@@ -21,17 +21,20 @@ There are many manufacturers of MBES and their capabilities can vary widely. The
 Introduction to Multibeam Echo Sounders (MBES) 
 ==========
 Basic Operation
-''''''''''''''
+--------
 Fundimentally, a MBES measures, with each "ping", the two-way travel time to the seafloor along a fan of beams, typically downward looking, and oriented across-track to the direction of travel. Although other configurations are possible, the traditional MBES is composed of two linear arrays of transducers arranged in a "Mills Cross" configuration. In this configuration the sonar transmits on one linear array, oriented in the direction of travel of the vessel, and receives acoustic returns on a second linear array arranged orthogonal to the transmit array (in the across-track direction). 
 
 The "beams" are synthetically generated at pre-determined angles through coherent combination of  signals recorded from individual receive elements along the transducer array. Correct generation of beam pointing angles requires realtime measurement of sound speed in the immediate vicinity of the array (more on this later). The pointing angles of each beam relative to the sonar can be fixed, but more often are varied by the system dynamically to compensate for the vessel (and therefore sonar's) pitch and roll. Beam pointing angles may have equal or varied beam-to-beam spacing, and a common arrangement is for the system to vary the angular spacing dynamically to produce equal across-track distance between measurements made on a flat seafloor. MBESs are often characterized by their "nadir" [See the note regarding this term.] transmit and receive beam widths, as these specs provide some indication of the physical size of the arrays for a given operating acoustic frequency, and also the nominal resolving capability of the system. (In a traditional installation, transmit and receive beam widths correspond to along-track and across-track beam widths.) The Nadir beam width is specified because beam widths increase for any beam pointed off nadir, (an artifact of beam steering) thus the nadir beam, provides a consistent comparison. 
 
 > NOTE: The term *nadir* is a commonly used term in the seafloor mapping community, but can mean one of two different things. Nadir either means "in a direction orthogonal to the receive array", or "in a direction directly down toward the center of the earth." For an array that installed in the typical mapping configuration having zero roll and pitch, these two definitions are the same. But for a system oscillating with variations in pitch and roll or for a system installed in a non-traditional configuration, they may mean different things.   Unless otherwise stated otherwise, the term nadir will indicate the direction orthogonal to the array in this REP.
 
+Correction for Refraction
+-------
 The calculation of depth relative to the echo-sounder from the two-way travel time measurement made along each beam has a big complicating factor, which is that the speed of sound in water is not constant. Variations in sound speed not only cause acoustic signals to speed up or slow down, but also to bend (or refract) as they propagate through the water column. This refraction must be modeled to obtain error free measurements of the seafloor. Sound speed varies with water temperature, salinity and depth (more precisely hydrostatic pressure), and so, in addition to the sound speed measured in real-time at the sonar head, MBES data is accompanied by vertical profiles of sound speed measurements made  through the water column while the survey is being conducted. These sound speed profiles are then used, either in real-time or post-processing to model the acoustic propagation of the signal. 
 
 Some sonar systems allow an operator to load a sound speed profile into the acquisition software, which the system will then use to generate and report XYZ soundings in real-time as the data is collected. Other systems do not provide this capability, reporting only two-way travel time along each receive beam, leaving the calculation of XYZ points (and refraction correction) to other systems. Even for systems for which real-time generation of soundings is possible, it is not uncommon to re-correct for refraction in post-processing, possibly from sound speed profiles made after the sonar data was collected or in closer proximity to it. It is important to note that while it is possible to re-correct for refraction artifacts from sound speed profile data, because individual element-level data in the receive array is not retained, one cannot correct for errors in beam-pointing angle calculations that result from errors in sound speed measurement at the transducer head. None-the-less sound speed at the head is routinely recorded with the sonar data to provide some indication of the validity of the sound speed profile used for refraction correction.
 
+Acoustic 
 In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_.  
 
 A few terms are worth defining to prevent confusion, as outside the scientific community they are often misused and will be referenced in guidance provided below. Note that all of these are acoustic measurements which can be derived (sometimes only with great effort) from the received signal recorded by the echo-sounder, along with many other terms. 
@@ -727,11 +730,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMzODQzNDYsLTE3NTY5NDUwOCwtMj
-AwODc2NTQwMiwxMDQ2MzE5MDAyLDkzMjUwNTcwMiwxNTE0MjA4
-ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMT
-U3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5
-MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NS
-w0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5
-OTcxNV19
+eyJoaXN0b3J5IjpbODk4MTUzNDIwLC0xODMzMzg0MzQ2LC0xNz
+U2OTQ1MDgsLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3
+MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMT
+EwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQy
+NTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLD
+E3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUx
+MDY2OV19
 -->
