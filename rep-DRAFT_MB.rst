@@ -94,9 +94,9 @@ The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicat
 Parameters
 -----
 
-	 - header: 
-frame_id: "base_link"}, child_frame_id: "mbes", transform: {translation: {x: 0.0, y: 0.0, z: 0.0}, rot
-ation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0} } }
+	 - header: {frame_id: "base_link"}, child_frame_id: "mbes", transform: {translation: {x: 0.0, y: 0.0, z: 0.0}, rotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0} } }
+	 header: {frame_id: "base_link"}
+	     child_frame_id:
 
 
 
@@ -733,9 +733,9 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MjA1NjkzLDIxMTA2MjIzODYsMTU3Mj
-M3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMw
-MDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0OD
-Q3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcx
-NV19
+eyJoaXN0b3J5IjpbMTE3ODAwMzgwNCwyMTEwNjIyMzg2LDE1Nz
+IzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMz
+MDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsND
+g0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3
+MTVdfQ==
 -->
