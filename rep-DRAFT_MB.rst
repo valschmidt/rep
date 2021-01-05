@@ -63,16 +63,17 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often re-done to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a number of data sets whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, and is often re-done to improve the result, the common practice is to specify nominal sensor reference frame values both during acquisition and initial processing and then correct them in subsequent steps. 
 
 Conventions:
 =======
 Units
 ------
-ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [2]_, using SI units throughout (e.g. seconds for travel time, radians for beam angles and beam widths, etc.) with the following exceptions for acoustic related values:
+ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [2]_, using SI units throughout (e.g. seconds for travel time, radians for beam angles and beam widths, etc.) with the following exceptions:
 
 * Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal.
-* Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.   
+* Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
+* Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame ( 
 
 ROS message definitions (including those defined here) shall include clear indications of whether values are absolute or relative. 
 
@@ -740,9 +741,9 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3NDE5Mjc2LDIxMTA2MjIzODYsMTU3Mj
-M3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMw
-MDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0OD
-Q3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcx
-NV19
+eyJoaXN0b3J5IjpbLTE5MDczNzUxNDMsMjExMDYyMjM4NiwxNT
+cyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkz
+MzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LD
+Q4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5
+NzE1XX0=
 -->
