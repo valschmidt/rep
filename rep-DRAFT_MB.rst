@@ -80,7 +80,7 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and often can be achieved by application a static offset between systems. 
+Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and often can be achieved by application a static offset between systems. Patch test methods exist to measure such an offset and shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a la
 
 Coordinate Frame Conventions
 -----
@@ -742,10 +742,10 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjM2NDAzNywxMDQ2MzE5MDAyLDkzMj
-UwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAy
-LDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNT
-Q2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUx
-MDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsND
-g0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbLTE0NjI0MTgxNTYsMTA0NjMxOTAwMiw5Mz
+I1MDU3MDIsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIw
+MiwyMTEwNjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMz
+U0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1
+MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LD
+Q4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
 -->
