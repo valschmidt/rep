@@ -63,7 +63,7 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 
 Because of the complexity in calculating acoustic quantities properly, few sonar systems attempt to report them. They instead often report the received signal associated with the bottom detect (or voxel) in either decibel or linear units without corrections of any kind. This received signal level is neither acoustic backscatter nor target strength, although these terms are commonly misused to describe them. 
 
-Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, these systems are extremely sensitive to angular errors in the sensor's reference frame, as these are amplified by the range to the seafloor. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is often done off-line, the common practice is to 
+Finally, installation of a MBES aboard a vehicle is accompanied by a calibration procedure called a "Patch Test". A Patch Test is a collection of data sets whose collection is designed to isolate and measure angular errors in the sonar's coordinate reference frame with respect to the vessel (base_link). The results of a Patch Test are "bias" corrections to roll, pitch and yaw, which fine-tune nominal values provided by the reference frame itself. [Patch Tests can also measure time delays between the navigation sonar temporal reference frames.] The use of patch test values as correctors to nominal angular installation angles is a practical one, in use for decades in seafloor mapping. Because MBESs make measurements in polar coordinates, and because angular errors are amplified with increasing range to the seafloor, these systems are extremely sensitive to angular errors in the sensor's reference frame. Unfortunately, it is extremely difficult to make direct physical measurements of angular offsets to the required accuracy (generally less than 0.05 degree). Thus the Patch Test allows use of the sonar data itself to measure them. Because this analysis is done off-line, the common practice is to record data with nominal reference frame values and apply 
 
 Conventions:
 =======
@@ -728,8 +728,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzY3OTU5NSwxNTcyMzc5NjE0LDE0OD
-g0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkzMzAwMSw0NzkyNjc4
-NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LDQ4NDcwODMzMCwtMT
-AxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5NzE1XX0=
+eyJoaXN0b3J5IjpbNjc5MTYwMDk3LDE1NzIzNzk2MTQsMTQ4OD
+QxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1
+MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMD
+ExOTg1NTg4LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
 -->
