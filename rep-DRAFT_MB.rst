@@ -80,7 +80,9 @@ ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.  
 * Roll, pitch and yaw bias values shall be specified in degrees, with positive directional conventions matching that of the MBES reference frame. 
 
-Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exceed the delay imparted by Ethernet or serial line buffers. Thus an IMU reporting attitude via serial line, but relying on the PC's system clock for time-stamping may suffer from a static latency that will cause "wobble" artifacts in the resulting data. Latencies of this type can be measured and corrected to great effect on the resulting sonar data. Patch test methods exist to measure such an offset and the result shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. Note that for real-time applications, this time correction must be applied to the IMU message time stamp on acquisition. 
+Time synchronization between sonar and navigation systems must be established to a high degree of accuracy to ensure artifact free data. Time synchronization errors of less than 1 ms are desirable and this can exceed the delay imparted by Ethernet or serial line buffers. Thus an IMU reporting attitude via serial line, but relying on the PC's system clock for time-stamping may suffer from a static latency that will cause "wobble" artifacts in the resulting data. Latencies of this type can be measured and corrected to great effect on the resulting sonar data. Patch test methods exist to measure such an offset and the result shall be specified as a ROS parameter (see the Parameters section below) in seconds with positive values indicating a latency of the navigation data wrt the sonar. 
+
+Note that for real-time applications using `robot_localization` to integrate IMU with position measurements, this time correction must be applied to the IMU message time stamp on acquisition. 
 
 Coordinate Frame Conventions
 -----
@@ -742,7 +744,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODA3Njg4MCwxMDQ2MzE5MDAyLDkzMj
+eyJoaXN0b3J5IjpbMTA1OTc5NTMwOSwxMDQ2MzE5MDAyLDkzMj
 UwNTcwMiwxNTE0MjA4ODk0LC02NDc2MjA1OSwxMjg4MzMyMjAy
 LDIxMTA2MjIzODYsMTU3MjM3OTYxNCwxNDg4NDE5OTUwLDEzNT
 Q2NDI1ODIsLTE3MjE5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUx
