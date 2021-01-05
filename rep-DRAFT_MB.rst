@@ -63,7 +63,7 @@ A few terms are worth defining to prevent confusion, as outside the scientific c
 * The term "acoustic target strength" is a measurement of the ratio of the reflected acoustic energy of a surface or volume to the ensonfying acoustic energy without normalization for the ensonified area or volume. 
 * The term "acoustic intensity" is a measure of acoustic energy, of a  received signal. Acoustic intensity, when expressed in linear (as opposed to decibel units) is proportional to the mean square value of the received signal. 
 * The term "acoustic magnitude" is proportional to acoustic pressure of the received acoustic signal. The SI unit for pressure is the Pascal. 
-* Finally because these measurements range over many orders of magnitude, they are converted to decibels in science and engineering. Decibels are the base 10 logarithm, of the **ratio** of two numbers.   
+* Finally because these measurements range over many orders of magnitude, they are converted to decibels in science and engineering. Decibels are the base 10 logarithm, of the **ratio** of a measurement to a reference value. The internationally agreed to reference value for underwater acoustics is 1 micro-Pascal. It is not uncommon in engineering to  
 
 Because of the complexity in calculating the acoustic 
 
@@ -697,7 +697,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM5NDgwNTAsNDc5MjY3ODUyLDEwNz
-Q5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1
-ODgsNDg0NTEwNjY5LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbOTAzNTc1ODcxLDQ3OTI2Nzg1MiwxMDc0OT
+U1MTAxLDE3ODE2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4
+LDQ4NDUxMDY2OSw1MTI1OTk3MTVdfQ==
 -->
