@@ -99,7 +99,7 @@ The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicat
 
 Parameters
 -----
-A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets from the base_link reference frame. 
+A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets from the base_link reference frame. However patch test values for 
 	mbes/correctors:
 	    roll_bias_deg: 0.0,
 	    pitch_bias_deg: 0.0,
@@ -746,7 +746,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjY1NzAxNCw5MzI1MDU3MDIsMTUxND
+eyJoaXN0b3J5IjpbMTczNTUwNTI4NSw5MzI1MDU3MDIsMTUxND
 IwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2
 LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNz
 IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
