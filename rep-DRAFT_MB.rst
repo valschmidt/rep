@@ -100,7 +100,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 Messages
 ----
 graph LR
-	
+	mbes_node --> mbes_point_generator
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
@@ -731,11 +731,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTM0NzIzMiwtMTY2MjYxMDc4MiwzOT
-MwNjY2ODUsLTE4MzMzODQzNDYsLTE3NTY5NDUwOCwtMjAwODc2
-NTQwMiwxMDQ2MzE5MDAyLDkzMjUwNTcwMiwxNTE0MjA4ODk0LC
-02NDc2MjA1OSwxMjg4MzMyMjAyLDIxMTA2MjIzODYsMTU3MjM3
-OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMwMD
-EsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0ODQ3
-MDgzMzBdfQ==
+eyJoaXN0b3J5IjpbLTE1NzY4OTgwOTIsLTE2NjI2MTA3ODIsMz
+kzMDY2Njg1LC0xODMzMzg0MzQ2LC0xNzU2OTQ1MDgsLTIwMDg3
+NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3MDIsMTUxNDIwODg5NC
+wtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEwNjIyMzg2LDE1NzIz
+Nzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNTgyLC0xNzIxOTMzMD
+AxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTczOTUsNDg0
+NzA4MzMwXX0=
 -->
