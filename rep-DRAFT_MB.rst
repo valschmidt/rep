@@ -86,7 +86,7 @@ Roll,  pitch and yaw shall indicate rotation about x, y and z axes, respectively
 
 Parameters
 -----
-A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published on the `mbes_info/` topic whose header will identify the MBES to which the . Nodes using these parameters in real-time must use the info-topic-published values as these reflect currently accurate values values and will be captured by BAG recordings. :
+A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets base_link. However default patch test values for roll, pitch and yaw will be specified as parameters and will be published on the `mbes_info/` topic whose header will identify the MBES to which the values apply. Nodes using these parameters must use the info-topic-published values as these reflect currently accurate values values and will be captured by BAG recordings. :
 
 	mbes_XX/correctors:
 		default_roll_bias_deg: 0.0
@@ -95,7 +95,7 @@ A static transform for the `mbes_XX` reference frame will provide nominal latera
 		default_IMU_time_bias_sec: 0.0
 		
 
-Messages
+Topics and Messages
 ----
 %% Node Architecture: graph LR A[mbes_node] -- RawMBES.msg --> B[mbes_point_generator] A -- MbesInfo.msg --> B B -- PcMBES.msg/ --> C[?]
 
@@ -730,7 +730,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDc4NDc0OSwxNDEyNjY2NzkyLC0xNT
+eyJoaXN0b3J5IjpbLTU2OTg2NDQ0MSwxNDEyNjY2NzkyLC0xNT
 EyMzc5NDQzLC0xNjYyNjEwNzgyLDM5MzA2NjY4NSwtMTgzMzM4
 NDM0NiwtMTc1Njk0NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMD
 IsOTMyNTA1NzAyLDE1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgz
