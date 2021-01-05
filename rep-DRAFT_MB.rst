@@ -67,11 +67,12 @@ Conventions:
 =======
 Units
 ------
-ROS messages reporting the data or operations of MBES shall adhere to REP 103 [2]_, using SI units throughout with the following exceptions for acoustic measurements and derived values:
+ROS messages reporting the data or operation of a MBES shall adhere to REP 103 [2]_, using SI units throughout with the following exceptions for acoustic related values:
 
 * Absolute acoustic measurements shall be reported in decibels re 1 micro Pascal.
 * Relative acoustic values shall be reported in decibels re 1 Volt or unit of measure.   
 
+ROS message definitions (including those defined here) shall include clear indications 
 
 
 Frame Conventions
@@ -713,8 +714,8 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzNzM4OTU3LDEzNTQ2NDI1ODIsLTE3Mj
-E5MzMwMDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5
-NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMj
-U5OTcxNV19
+eyJoaXN0b3J5IjpbLTg0ODk1MTY0MCwxMzU0NjQyNTgyLC0xNz
+IxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3ODE2MTcz
+OTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2OSw1MT
+I1OTk3MTVdfQ==
 -->
