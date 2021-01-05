@@ -94,6 +94,10 @@ The MBES sensor reference frame shall be called ``mbes_XX`` where ``XX`` indicat
 Parameters
 -----
 
+	mbes/correctors:
+	    roll_bias_deg: 0.0,
+	    pitch_bias_deg: 0.0,
+	    yaw_bias_deg: 0,0
 	 - header: {frame_id: "base_link"}, child_frame_id: "mbes", transform: {translation: {x: 0.0, y: 0.0, z: 0.0}, rotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0} } }
 	 header: {frame_id: "base_link"}
 	     child_frame_id: "mbes_01"
@@ -736,9 +740,9 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQyNjU5MDMsMjExMDYyMjM4NiwxNT
-cyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0MjU4MiwtMTcyMTkz
-MzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMSwxNzgxNjE3Mzk1LD
-Q4NDcwODMzMCwtMTAxMTk4NTU4OCw0ODQ1MTA2NjksNTEyNTk5
-NzE1XX0=
+eyJoaXN0b3J5IjpbMjQ3NDE5Mjc2LDIxMTA2MjIzODYsMTU3Mj
+M3OTYxNCwxNDg4NDE5OTUwLDEzNTQ2NDI1ODIsLTE3MjE5MzMw
+MDEsNDc5MjY3ODUyLDEwNzQ5NTUxMDEsMTc4MTYxNzM5NSw0OD
+Q3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5LDUxMjU5OTcx
+NV19
 -->
