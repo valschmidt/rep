@@ -55,7 +55,7 @@ The calculation of depth relative to the echo-sounder from the two-way travel ti
 
 Some sonar systems allow an operator to load a sound speed profile into the acquisition software, which the system will then use to generate XYZ soundings in real-time as the data is collected. Other systems do not provide this capability, reporting only two-way travel time along each receive beam, leaving the calculation of XYZ points (and refraction correction) to post-processing. Even for systems for which real-time generation of soundings is possible, it is not uncommon to re-refraction correct the measurements, possibly from sound speed profiles made after the sonar data was collected or in closer proximity to it. It is important to note that while it is possible to re-correct for refraction artifacts from sound speed profile data, because individual element-level data in the receive array is not retained, one cannot correct for errors in beam-pointing angle calculations from 
 
-In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and interested readers   to among sonar vendors,  it has caused great confus
+In addition to two-way travel time along each beam, MBESs often record the acoustic intensity of the received signal associated with the target detect. There is no agreed upon method for measuring or reporting this value, and unfortunately each sonar system does it differently. This measurement has been of great interest for those doing seafloor characterization, but has been plagued by numerous challenges involving inconsistent reporting by sonar manufacturers, poor sonar design that produces inconsistent results, mis-treatment by scientists and engineers, and mis-understandings in the meaning of the measurement. The topic is very complex and those interested are referred to a recent report by the "Backscatter Working Group" here [1]_  to among sonar vendors,  it has caused great confus
 
 ReStructuredText is offered as an alternative to plaintext REPs, to
 allow REP authors more functionality and expressivity, while
@@ -686,7 +686,7 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMjM5NjUyLDEwNzQ5NTUxMDEsMTc4MT
-YxNzM5NSw0ODQ3MDgzMzAsLTEwMTE5ODU1ODgsNDg0NTEwNjY5
-LDUxMjU5OTcxNV19
+eyJoaXN0b3J5IjpbMjExODIyNjQzMiwxMDc0OTU1MTAxLDE3OD
+E2MTczOTUsNDg0NzA4MzMwLC0xMDExOTg1NTg4LDQ4NDUxMDY2
+OSw1MTI1OTk3MTVdfQ==
 -->
