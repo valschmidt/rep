@@ -89,9 +89,9 @@ Parameters
 A static transform for the `mbes_XX` reference frame will provide nominal lateral and angular offsets from the base_link reference frame. However patch test values for roll, pitch and yaw will be specified as parameters as follows:
 
 	mbes_XX/correctors:
-		roll_bias_deg: 0.0
-		pitch_bias_deg: 0.0
-		yaw_bias_deg: 0.0
+		default_roll_bias_deg: 0.0
+		default_pitch_bias_deg: 0.0
+		dyaw_bias_deg: 0.0
 		IMU_time_bias_sec: 0.0
 		
 **FIX:** Parameters are not captured in a ROS BAG file I don't think. So if a BAG is replayed in a ROS environment, these parameters may have changed and may not reflect the values in force at the time the MBES data was recorded. This problem likely persists across other ROS nodes in which offsets are 
@@ -732,11 +732,11 @@ This document has been placed in the public domain.
    coding: utf-8
    End:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMjQzODA1LC0xNTEyMzc5NDQzLC0xNj
-YyNjEwNzgyLDM5MzA2NjY4NSwtMTgzMzM4NDM0NiwtMTc1Njk0
-NTA4LC0yMDA4NzY1NDAyLDEwNDYzMTkwMDIsOTMyNTA1NzAyLD
-E1MTQyMDg4OTQsLTY0NzYyMDU5LDEyODgzMzIyMDIsMjExMDYy
-MjM4NiwxNTcyMzc5NjE0LDE0ODg0MTk5NTAsMTM1NDY0MjU4Mi
-wtMTcyMTkzMzAwMSw0NzkyNjc4NTIsMTA3NDk1NTEwMSwxNzgx
-NjE3Mzk1XX0=
+eyJoaXN0b3J5IjpbLTE5MDM1MTg1NDcsLTE1MTIzNzk0NDMsLT
+E2NjI2MTA3ODIsMzkzMDY2Njg1LC0xODMzMzg0MzQ2LC0xNzU2
+OTQ1MDgsLTIwMDg3NjU0MDIsMTA0NjMxOTAwMiw5MzI1MDU3MD
+IsMTUxNDIwODg5NCwtNjQ3NjIwNTksMTI4ODMzMjIwMiwyMTEw
+NjIyMzg2LDE1NzIzNzk2MTQsMTQ4ODQxOTk1MCwxMzU0NjQyNT
+gyLC0xNzIxOTMzMDAxLDQ3OTI2Nzg1MiwxMDc0OTU1MTAxLDE3
+ODE2MTczOTVdfQ==
 -->
